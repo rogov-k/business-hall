@@ -16,6 +16,35 @@
         <h3>Гостиничные номера включают в себя все необходимое:</h3>
         <article><?php echo $content['text']['common-include']; ?></article>
       </div>
+        <div class="description">
+            <div class="variations">
+                <div class="variation-once variation-once--title">
+                    <div class="title">Номерной фондд</div>
+                    <div class="person">Вмещает</div>
+                    <div class="price">Цена</div>
+                </div>
+                <div class="variation-once ">
+                    <div class="title">Двухместный номер с 2 отдельными кроватями</div>
+                    <div class="person">2-х</div>
+                    <div class="price">4&nbsp;200&#8381;</div>
+                </div>
+                <div class="variation-once">
+                    <div class="title">Двухместный номер с 2 отдельными кроватями</div>
+                    <div class="person">1-о</div>
+                    <div class="price">3&nbsp;570&#8381;</div>
+                </div>
+                <div class="variation-once ">
+                    <div class="title">Двухместный номер для людей с ограниченными возможностями</div>
+                    <div class="person">2-х</div>
+                    <div class="price">5&nbsp;200&#8381;</div>
+                </div>
+                <div class="variation-once">
+                    <div class="title">Двухместный номер для людей с ограниченными возможностями</div>
+                    <div class="person">1-о</div>
+                    <div class="price">4&nbsp;420&#8381;</div>
+                </div>
+            </div>
+        </div>
       <div class="body--buttons">
         <div class="pop-up--close">Скрыть</div>
         <a href="#form" class="pop-up--close number--button">Боронировать</a>

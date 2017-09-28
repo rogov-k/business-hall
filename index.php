@@ -1,8 +1,8 @@
 <?php
 session_start();
 $_SESSION['scrf'] = 123;
+$content['text']['form'] = file_get_contents('files/form.txt');
 $content['text']['rules'] = file_get_contents('files/rules.txt');
-$content['text']['contact'] = file_get_contents('files/contact.txt');
 $content['text']['lux'] = file_get_contents('files/lux.txt');
 $content['text']['lux-full'] = file_get_contents('files/lux-full.txt');
 $content['text']['lux-include'] = file_get_contents('files/lux-include.txt');

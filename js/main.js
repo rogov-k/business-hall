@@ -67,11 +67,15 @@ $(document).ready(function () {
         $('body,html').animate({scrollTop: top}, 1000);
     });
 
-    $(".items--menu").on("click", "a", function (event) {
+    $("body").on("click", "a.scroll", function (event) {
         event.preventDefault();
         var id = $(this).attr('href'),
             top = $(id).offset().top;
         $('body,html').animate({scrollTop: top}, 1000);
     });
 
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 150) $('.up').fadeIn();
+        else $('.up').fadeOut();
+    });
 });
