@@ -38,29 +38,29 @@ $(document).ready(function () {
     })();
     
     $('.lux .number--button').on('click', function () {
+        $('.content').toggleClass('p');
         $('.pop-up--content.lux').toggleClass('hide');
         $('.pop-up--fon').removeClass('hide');
-        $('.content').toggleClass('p');
     });
 
     $('.common .number--button').on('click', function () {
+        $('.content').toggleClass('p');
         $('.pop-up--content.common').toggleClass('hide');
         $('.pop-up--fon').removeClass('hide');
-        $('.content').toggleClass('p');
     });
 
     $('.pop-up--close').on('click', function () {
+        $('.content').toggleClass('p');
         $('.pop-up--content.common').addClass('hide');
         $('.pop-up--content.lux').addClass('hide');
         $('.pop-up--fon').addClass('hide');
-        $('.content').toggleClass('p');
     });
 
     $('a.pop-up--close').on('click', function () {
+        $('.content').toggleClass('p');
         $('.pop-up--content.common').addClass('hide');
         $('.pop-up--content.lux').addClass('hide');
         $('.pop-up--fon').addClass('hide');
-        $('.content').toggleClass('p');
         event.preventDefault();
         var id = $(this).attr('href'),
             top = $(id).offset().top;

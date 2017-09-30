@@ -6,7 +6,7 @@
         <div class="block--body">
           <?php
           $slider = '<div class="slider">';
-          foreach (glob('img/photo/*.jpg') as $filename) {
+          foreach (glob('img/photo/*.png') as $filename) {
             $slider .= '<div class="img-wrapper"><img src="' . $filename . '"></div>';
           }
           $slider .= '</div>';

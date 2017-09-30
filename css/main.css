@@ -20,10 +20,12 @@ a {
 article {
     overflow-wrap: break-word;
     white-space: pre-line;
+    text-align: justify;
 }
 
 p {
     margin: 0 0 .5em 0;
+    text-align: justify;
 }
 
 *:focus {
@@ -155,7 +157,6 @@ p {
  * Block - contact
  */
 
-
 .social-icons {
     padding: 1em 0 0 0;
     display: flex;
@@ -237,7 +238,7 @@ form input[type="text"] {
     margin: 1em 0 0 0;
     box-sizing: border-box;
     padding: .75em 1em;
-    border: 2px solid #333333;
+    border: 1px solid #333333;
     border-radius: 3px;
     display: inline-block;
     font-size: 14px;
@@ -252,7 +253,7 @@ form textarea {
     height: 140px;
     box-sizing: border-box;
     padding: .75em 1em;
-    border: 2px solid #333333;
+    border: 1px solid #333333;
     border-radius: 3px;
     font-size: 14px;
     line-height: 20px;
@@ -262,7 +263,7 @@ form textarea {
 
 form .field-group input:focus,
 form textarea:focus {
-    border: 2px solid #64B6AC;
+    border: 1px solid #64B6AC;
 }
 
 form input[type="submit"] {
@@ -294,12 +295,11 @@ form input[type="submit"] {
 }
 
 .hotel--number {
-    width: 40%;
+    width: 300px;
     padding: 1em 1em calc(1em + 40px) 1em;
     position: relative;
     box-sizing: border-box;
     display: inline-block;
-    cursor: pointer;
     border-radius: 5px;
     box-shadow: 0 0 4px 0 #ddd;
 }
@@ -308,7 +308,7 @@ form input[type="submit"] {
     position: relative;
 }
 
-.number--photo img{
+.number--photo img {
     width: 100%;
     display: block;
 }
@@ -328,6 +328,7 @@ form input[type="submit"] {
 
 .number--information article {
     padding: .5em 0;
+    text-align: left;
 }
 
 .variations {
@@ -344,7 +345,7 @@ form input[type="submit"] {
 }
 
 .variation-once .title {
-    padding: .25em 0;
+    padding: .25em 0 .25em .5em;
     width: 70%;
 }
 
@@ -357,6 +358,10 @@ form input[type="submit"] {
 .variation-once .price {
     width: 60px;
     padding: .25em 0;
+}
+
+.variation-once--dark {
+    background: #efefef;
 }
 
 .number--buttons {
@@ -390,6 +395,7 @@ form input[type="submit"] {
     text-decoration: none;
     color: #ffffff;
     border-radius: 3px;
+    cursor: pointer;
 }
 
 .block--footer article {
@@ -543,6 +549,29 @@ form input[type="submit"] {
 }
 
 /*
+ * Block rules
+ */
+
+.block--rules article p {
+    position: relative;
+    padding: 0 0 0 2em;
+}
+
+.block--rules article p:before {
+    content: '';
+    position: absolute;
+    background: #ffffff;
+    border: 2px solid #64B6AC;
+    border-radius: 50%;
+    width: 14px;
+    height: 14px;
+    display: block;
+    cursor: pointer;
+    left: 0px;
+    top: 3px;
+}
+
+/*
  * Footer
  */
 
@@ -559,7 +588,7 @@ form input[type="submit"] {
 
 .pop-up--fon.hide {
     opacity: 0;
-    top: 10000px;
+    z-index: -10000;
 }
 
 .pop-up--fon {
@@ -580,11 +609,11 @@ form input[type="submit"] {
 }
 
 .pop-up--content.hide {
-    top: 10000px;
-    display: none;
+    top: -4000px;
 }
 
 .pop-up--content {
+    -webkit-transition: top 1s ease;
     transition: top 1s ease;
     position: absolute;
     top: 0;

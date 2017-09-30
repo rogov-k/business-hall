@@ -23,15 +23,15 @@
                         <div class="person">Вмещает</div>
                         <div class="price">Цена</div>
                     </div>
-                    <div class="variation-once ">
+                    <div class="variation-once variation-once--dark">
                         <div class="title">Люкс с видом на город</div>
-                        <div class="person">2-х</div>
-                        <div class="price">8&nbsp;700&#8381;</div>
+                        <div class="person">2</div>
+                        <div class="price">8&nbsp;000&#8381;</div>
                     </div>
                     <div class="variation-once">
                         <div class="title">Люкс с балконом</div>
-                        <div class="person">2-х</div>
-                        <div class="price">8&nbsp;000&#8381;</div>
+                        <div class="person">2</div>
+                        <div class="price">8&nbsp;700&#8381;</div>
                     </div>
                 </div>
             </div>
