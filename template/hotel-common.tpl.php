@@ -24,22 +24,22 @@
                     <div class="price">Цена</div>
                 </div>
                 <div class="variation-once variation-once--dark">
-                    <div class="title">Двухместный номер с 2 отдельными кроватями</div>
+                    <div class="title">Стандартный номер</div>
                     <div class="person">2</div>
                     <div class="price">4&nbsp;200&#8381;</div>
                 </div>
                 <div class="variation-once">
-                    <div class="title">Двухместный номер с 2 отдельными кроватями</div>
+                    <div class="title">Стандартный номер</div>
                     <div class="person">1</div>
                     <div class="price">3&nbsp;570&#8381;</div>
                 </div>
                 <div class="variation-once variation-once--dark">
-                    <div class="title">Двухместный номер для людей с ограниченными возможностями</div>
+                    <div class="title">Стандартный номер для людей с ограниченными возможностями</div>
                     <div class="person">2</div>
                     <div class="price">5&nbsp;200&#8381;</div>
                 </div>
                 <div class="variation-once">
-                    <div class="title">Двухместный номер для людей с ограниченными возможностями</div>
+                    <div class="title">Стандартный номер для людей с ограниченными возможностями</div>
                     <div class="person">1</div>
                     <div class="price">4&nbsp;420&#8381;</div>
                 </div>
@@ -47,7 +47,7 @@
         </div>
       <div class="body--buttons">
         <div class="pop-up--close">Скрыть</div>
-        <a href="#form" class="pop-up--close number--button">Боронировать</a>
+        <a href="#form" class="pop-up--close number--button">Бронировать</a>
       </div>
     </div>
   </div>

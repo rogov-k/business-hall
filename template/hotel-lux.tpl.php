@@ -37,7 +37,7 @@
             </div>
             <div class="body--buttons">
                 <div class="pop-up--close">Скрыть</div>
-                <a href="#form" class="pop-up--close number--button">Боронировать</a>
+                <a href="#form" class="pop-up--close number--button">Бронировать</a>
             </div>
         </div>
     </div>
