@@ -11,36 +11,44 @@
         ?>
       </div>
       <div class="description">
-        <h3>Business Hall - двухместный номер:</h3>
+        <h3>Business Hall - cтандартный номер:</h3>
         <article><?php echo $content['text']['common-full']; ?></article>
-        <h3>Гостиничные номера включают в себя все необходимое:</h3>
-        <article><?php echo $content['text']['common-include']; ?></article>
       </div>
         <div class="description">
             <div class="variations">
                 <div class="variation-once variation-once--title">
-                    <div class="title">Номерной фондд</div>
-                    <div class="person">Вмещает</div>
+                    <div class="title">Номерной фонд</div>
+                    <div class="person">Мест</div>
                     <div class="price">Цена</div>
                 </div>
                 <div class="variation-once variation-once--dark">
                     <div class="title">Стандартный номер</div>
-                    <div class="person">2</div>
+                    <div class="person">
+                        <div class="place"></div>
+                        <div class="place"></div>
+                    </div>
                     <div class="price">4&nbsp;200&#8381;</div>
                 </div>
                 <div class="variation-once">
                     <div class="title">Стандартный номер</div>
-                    <div class="person">1</div>
+                    <div class="person">
+                        <div class="place"></div>
+                    </div>
                     <div class="price">3&nbsp;570&#8381;</div>
                 </div>
                 <div class="variation-once variation-once--dark">
                     <div class="title">Стандартный номер для людей с ограниченными возможностями</div>
-                    <div class="person">2</div>
+                    <div class="person">
+                        <div class="place"></div>
+                        <div class="place"></div>
+                    </div>
                     <div class="price">5&nbsp;200&#8381;</div>
                 </div>
                 <div class="variation-once">
                     <div class="title">Стандартный номер для людей с ограниченными возможностями</div>
-                    <div class="person">1</div>
+                    <div class="person">
+                        <div class="place"></div>
+                    </div>
                     <div class="price">4&nbsp;420&#8381;</div>
                 </div>
             </div>

@@ -18,12 +18,13 @@
                 <div class="header-item item--phone"><a href="tel:+73952436380">+7 (3952) 43‒63‒80</a></div>
                 <div class="header-item item--address">Иркутск, Свердлова, 10</div>
                 <div class="header-item items--menu">
-                    <div class="item-menu"><a class="scroll" href="#welcome">Главная</a></div>
-                    <div class="item-menu"><a class="scroll" href="#main">Номера</a></div>
-                    <div class="item-menu"><a class="scroll" href="#rules">Правила</a></div>
-                    <div class="item-menu"><a class="scroll" href="#form">Контакты</a></div>
-                    <div class="item-menu"><a class="scroll" href="#comments">Отзывы</a></div>
+                    <div class="item-menu mt"><a class="scroll" href="#welcome">Главная</a></div>
+                    <div class="item-menu mt"><a class="scroll" href="#main">Номера</a></div>
+                    <div class="item-menu mt"><a class="scroll" href="#rules">Правила</a></div>
+                    <div class="item-menu mt"><a class="scroll" href="#form">Контакты</a></div>
+                    <div class="item-menu mt"><a class="scroll" href="#comments">Отзывы</a></div>
                 </div>
+                <div class="menu-toggle open"></div>
             </div>
         </div>
     </div>
@@ -41,7 +42,8 @@
       <?php include 'hotel-common.tpl.php'; ?>
         <div class="pop-up--fon pop-up--close hide"></div>
     </div>
-    <a href="#up" class="up scroll"></a>
+    <!--a href="#up" class="up scroll"></a-->
+    <a href="#form" class="call scroll">Заказать обратный звонок</a>
 </div>
 <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 <script src="https://maps.api.2gis.ru/2.0/loader.js?pkg=full"></script>
