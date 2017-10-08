@@ -18,7 +18,7 @@
                 <div class="variations">
                     <div class="variation-once variation-once--title">
                         <div class="title">Номерной фонд</div>
-                        <div class="person">Вмещает</div>
+                        <div class="person">Мест</div>
                         <div class="price">Цена</div>
                     </div>
                     <div class="variation-once variation-once--dark">
