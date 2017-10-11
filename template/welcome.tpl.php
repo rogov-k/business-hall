@@ -13,6 +13,13 @@
           echo $slider;
           ?>
             <article><?php echo $content['text']['welcome']; ?></article>
+            <div class="icons">
+                <div class="icon-item r">Ресторан</div>
+                <div class="icon-item f">Семейные комнаты</div>
+                <div class="icon-item s">Комнаты для не курящих</div>
+                <div class="icon-item b">Камеры хранения</div>
+                <div class="icon-item c">Ежедневная уборка</div>
+            </div>
         </div>
     </div>
 </div>
